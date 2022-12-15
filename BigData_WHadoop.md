@@ -1,4 +1,7 @@
 # Big Data
+Below is my essay summarizing what we studied leading up to the big data practical exam. I am sharing it here for your reference.
+
+> You can check the [PDF Version](bigdata.pdf) if your prefer.
 
 ## Required Install
 - https://www.virtualbox.org/
