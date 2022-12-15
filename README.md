@@ -12,9 +12,6 @@ I am excited to share it with you and I hope that it will help you to achieve yo
 
 # Technologies
 
-- [Big Data](BigData_WHadoop.md)
-> Not yet
-
-- [Arduino]()
+- [Big Data](BigData/README.md)
 - [Docker]()
-- [Real-Time]()
+- [Real Time](Real-time/README.md)
