@@ -1,5 +1,4 @@
-# Lab 1
-
+# [Laboratory 1](TP.pdf)
 ```C
 #include <OSA.h>
 #include <OSAcfg.h>
@@ -93,7 +92,7 @@ PORTD =0;
 
 
 ```
-# Lab 2
+# [Laboratory 2](TP2.pdf)
 
 ``` C
 #include <osa.h>
@@ -179,7 +178,7 @@ OS_Run();
 
 ```
 
-# Lab 3 
+# [Laboratory 3 ](TP3.pd)
 
 ``` C
 #include <osa.h>
