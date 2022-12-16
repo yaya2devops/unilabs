@@ -1,4 +1,4 @@
-# [Laboratory 1](TP.pdf)
+# [Laboratory 1](TP1.pdf)
 ```C
 #include <OSA.h>
 #include <OSAcfg.h>
