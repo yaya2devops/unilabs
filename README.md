@@ -14,8 +14,8 @@ The technologies listed below were encountered near the end of my college career
 - [Big Data](BigData/README.md)
 - [Docker](DockerF/README.md)
 - [Real Time](Real-time/README.md)
+- [Networking](Network/README.md)
 
 > soon
 
 - [Arduino-NodeRed]()
-- [Wireless-Network]()
