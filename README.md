@@ -16,6 +16,10 @@ The technologies listed below were encountered near the end of my college career
 - [Real Time](Real-time/README.md)
 - [Networking](Network/README.md)
 
-> soon
+<br>
 
+> Next.
+
+- [Machine Learning- Anaconda]()
+- [Labview- NI Labview]()
 - [Arduino-NodeRed]()
