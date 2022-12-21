@@ -82,4 +82,61 @@ First order logic is another way of knowlege representation in A.I.
 |          Equality  |  = | 
 |         Quantifiers   |  Qlqsoit, il existe | 
 
+ ### Atomic Sentences
+ - Atomic sentences are the most basic sentences of FOL. These sentences are formed ffrom a predicate symbol followed by praenthesis with a sequence of terms.
+ 
+ - we can represent atomic sentences as predicate ( term1, term2,.... termn) <br>
+ 
+ **Example1:** Yaya and Soso are brothers. <br>
+ Terms: Yahya, Soso <br>Predicate: Brothers <br>Result: Brothers( Yaya, Soso)
+ 
+ 
+  **Example2:** Tommy is a dog <br>
+ Terms: Tommy <br>Predicate: Dog <br>Result: Dog(Tommy)
+ 
+  ### Complex Sentences
+- Complex sentences are made by comibining atomic sentences using **connectives**(or, and, implies etc..).
 
+Real meaning: Predicate1(Term1, Term2, TermN..) "Connectivity"  Predicate2(Term1, Term2, TermN..)
+ 
+ #### First Order Logic Statements divided into 2 parts.
+ - Subject: it is the main part of the statement
+ - Predicate: can be defined a relation which binds two atmos together in a statement
+ 
+ 
+ **Example:** <br>
+  State: "X is an integer"
+  
+ First part; X is a subject of the statement <br>
+ Second part, is an integer is known as predicate
+ 
+  ### Quantifiers
+  
+  
+  ###  Inference
+  
+  ### Unification
+  
+  ### Resolution
+  
+  ### Forward chaining and backward chaining
+  
+  
+  ### AI Techniques; Search, Knowledge &  Abstraction
+  
+  ### Score Playing - Scope of AI
+  
+  ### NLP - Scope of AI
+  
+  ### Expert Systems - Scope of AI
+  
+  ### Robotics - Scope of AI
+  
+  
+  ### Learning from Observation
+  
+  ### Inductive Learning
+  
+  ### Decision Tree Learning Algo
+  
+  ### AI - Application
