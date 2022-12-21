@@ -163,30 +163,30 @@ x1 is intelli or x2 is intelligent or xn is intelligent <br>
 - the main connective for ∀ is "->'
 - the main connective for ∃ is 'and'
 
-  ###  Inference
+##  Inference
   
-  ### Unification
+## Unification
   
-  ### Resolution
+## Resolution
   
-  ### Forward chaining and backward chaining
-  
-  
-  ### AI Techniques; Search, Knowledge &  Abstraction
-  
-  ### Score Playing - Scope of AI
-  
-  ### NLP - Scope of AI
-  
-  ### Expert Systems - Scope of AI
-  
-  ### Robotics - Scope of AI
+## Forward chaining and backward chaining
   
   
-  ### Learning from Observation
+## AI Techniques; Search, Knowledge &  Abstraction
   
-  ### Inductive Learning
+## Score Playing - Scope of AI
   
-  ### Decision Tree Learning Algo
+## NLP - Scope of AI
   
-  ### AI - Application
+## Expert Systems - Scope of AI
+  
+## Robotics - Scope of AI
+  
+  
+## Learning from Observation
+  
+## Inductive Learning
+  
+## Decision Tree Learning Algo
+  
+## AI - Application
