@@ -110,6 +110,8 @@ Real meaning: Predicate1(Term1, Term2, TermN..) "Connectivity"  Predicate2(Term1
  First part; X is a subject of the statement <br>
  Second part, is an integer is known as predicate
  
+ ---
+ 
   ### Quantifiers
   - a quantifier is a language element which generates quantificator
   - these are the symboles that permit to determine or identitfy the range and the score of the variable in the logic expression.
@@ -134,6 +136,12 @@ for every x
   
   There are all x where x is a man who drink coffe <br> You say also, there is x where is is men who drink coffe!! smart me!!
   
+  
+<br>All birds fly, predicate is fly(bird)<br> ∀x bird(x) -> fly(x)
+<br>
+Every man respects his parent, predicate is respect (x,y) where x=man, y=parent <br>
+∀x man(x) -> respects (x, parent)
+  
   ##### b- Existential quantifier ( for some, atleast one)   --scope in math "∃"
   It is the type of quantifier which express that the start within its score is true for atleast one instance of something
   <br>here we always use, and or conjuction symbol Vma9louba<br>
@@ -143,6 +151,17 @@ for every x
   <br> ∃ (X) is read as:
   <br> there exists a x<br> for some "x"<br> for atleast an "x"
   
+  
+<br> Some more examples<br>
+Some boys are intelligent.<br>
+x1 is intelli or x2 is intelligent or xn is intelligent <br>
+∃x:boy(x) and intelligent (x)
+
+
+> note: IMPORTANTTTTTT
+
+- the main connective for ∀ is "->'
+- the main connective for ∃ is 'and'
 
   ###  Inference
   
