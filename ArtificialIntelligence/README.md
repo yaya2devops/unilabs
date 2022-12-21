@@ -111,8 +111,39 @@ Real meaning: Predicate1(Term1, Term2, TermN..) "Connectivity"  Predicate2(Term1
  Second part, is an integer is known as predicate
  
   ### Quantifiers
+  - a quantifier is a language element which generates quantificator
+  - these are the symboles that permit to determine or identitfy the range and the score of the variable in the logic expression.
+  
+  There are two type of quantifier:<br>
+  #### a- Universal Quantifier ( for all, everyone, everything)  -- range in math "∀" 
+  It is a symbol of logical representation which specifies that the statement within its range is true for everything or every instance of particular thing
+  
+  if x is a varibale, the qlqsoit X is read as: <br>
+ for all x
+<br> for each x<br>
+for every x
   
   
+**Example:** All men drink coffee <br>
+  let x is variable <br>
+  x1 drink coffee, Vma9louba(and) x2 drink coffee and xn drinkcoffee.
+  
+  So we can write it as 
+ 	∀x man(x) --> drink (x, cofee) 
+  > if i'm not using the conectivity "->" than u could call it an atomic sentence ;)
+  
+  There are all x where x is a man who drink coffe <br> You say also, there is x where is is men who drink coffe!! smart me!!
+  
+  ##### b- Existential quantifier ( for some, atleast one)   --scope in math "∃"
+  It is the type of quantifier which express that the start within its score is true for atleast one instance of something
+  <br>here we always use, and or conjuction symbol Vma9louba<br>
+  
+  
+  if x is a variable then existential quantifier will be 
+  <br> ∃ (X) is read as:
+  <br> there exists a x<br> for some "x"<br> for atleast an "x"
+  
+
   ###  Inference
   
   ### Unification
