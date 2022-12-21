@@ -55,6 +55,31 @@ C- It is rainning
 - In PL, we cannot describe the statements in terms of their properties or logical relationships
 
 ## 2- First Order predicat logic
+First order logic is another way of knowlege representation in A.I.
+ It is an extension to PL (propostional Logic)
+ 
+ - FOL is also known as predicate logic. It is a powerful language that develops information about the objects in a more easy way and can also express the relationship between those objects. not just (True/False).
+ 
+ - FOL does not only assume that the world contains facts like "PL" but also assumes.<br>
+ 1- Objects, A, B, people, colors, pits,ettc<br>
+ 2- Relationships: It can be any relation such, sisters, brothers, has color<br>
+ 3- Functions: Father of, best friend, end of...<br>
+ 
+ As a natural language, First order logic has two main parts<br>
+ a- syntax <br><br>
+ b- semantics<br>
+ 
+ 
+ ### Semantic of FOL: Basic Elements
 
+|   Elements |  Syntax|
+|---|---|
+|      Constant      |  1,2 A, Hiehaaa | 
+|   Variables         |  x,y,z,a,b,c,d | 
+|            Predicats| Brother, Father, >, <  | 
+|          Functions  |  Sqrt, etc | 
+|          Connectives  |  No, apply, and, or, <=> (AI syntax pls) | 
+|          Equality  |  = | 
+|         Quantifiers   |  Qlqsoit, il existe | 
 
 
