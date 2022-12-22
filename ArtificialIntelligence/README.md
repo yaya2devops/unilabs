@@ -164,7 +164,18 @@ x1 is intelli or x2 is intelligent or xn is intelligent <br>
 - the main connective for ∃ is 'and'
 
 ##  Inference
-  
+Inference in FOL is used to dedce new facts sentences from, existing sentences. Before understanding First Logic Inference suite, let's understand some basic teminologies used in FOL.
+
+1- Substitution <br>
+It is a fundamentals operation performed on termas and forumas It occurs in all inference sys in FOL: F[a/x] F[b/x]
+<br>substitute a constant "a" in the place of variable.
+
+2- Equality <br>
+FOL logic does not only use predicate and terms for making atomic sentence but also uses another way, whch is equality in FOL. <br> eq, brother (John)= smoth <br> here the obj reffered by brother (john) is smiliar to obj refered by smoth. The equality symbol can also be used with negation to represent that two terms are notn the same objects.
+<br> eq, no(x=y) equivalent to x<>y
+
+
+
 ## Unification
   
 ## Resolution
