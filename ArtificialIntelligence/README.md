@@ -393,6 +393,27 @@ Rule4: if a then d: C->D <br>
 
   
 # backward chaining
+A backward chaining algorithm is a form of reasoning which starts with the goal and works backward, chaining through rules to find know facs to support the goal.
+  
+## Properties of backward chaining
+- It is known as a top down approach
+- Backward chaining is based on modus ponens inference rule
+- in backward chaining,  the goal is broken inton sub goal or sub goals to prove the facts true.
+- it is also called goal driven approach "while the above is data driven approach" as a list of goal decides which rules are selected or used.
+- The algorithm is used in game theory, automatic theory proving tools , inference engines, proof assistans and various apps
+- The backward chaining method mostlyb used a depth first search strategy for prrof
+  
+ ## EXAMPLE1 
+<img src="backward1.png" >
+
+ ## Compare Forward and backwward
+<img src="compare1.png" >
+  
+  <img src="compare2.png" >
+  
+    <img src="compare3.png" >
+
+
   
 # AI Techniques; Search, Knowledge &  Abstraction
   
