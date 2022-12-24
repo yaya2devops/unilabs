@@ -1,6 +1,6 @@
-# AI Fundamentals
+# AI Fundamentals - My Notes
 
-> Just another me watching a course and taking notes.
+> [Machine Learning](soon)
 
 - **Definition;** “the science of making machines do things that would require intelligence if done by men.” Marvin Minsky
 
