@@ -12,7 +12,7 @@ Whether you are studying for an upcoming exam, working on a project, or simply l
 ## Technologies Met
 The technologies listed below were encountered near the end of my college career. Most of them I already knew, but it was a good knowledge stretch.
 
-- [Machine Learning](ArtificialIntelligence/README.md)
+- [Artifical Intelligence](ArtificialIntelligence/README.md)
 - [Big Data](BigData/README.md)
 - [Docker](DockerF/README.md)
 - [Real Time](Real-time/README.md)
