@@ -369,7 +369,7 @@ It is a form of reasoning which starts with atomic sentences in the knowledge ba
 - forward chaining approach is alson called a s data driven as we reach to the goal using availablen data
 - forward chaining approach is commonl used in the expert system.
   
-## Examples
+## Example1
 Rule1: if A and C hen F: a&c->f <br>
 Rule2: if a and e then a: A&E->A<br>
 Rule3: if b then E: B->E <br>
@@ -381,6 +381,16 @@ Rule4: if a then d: C->D <br>
   
   <img src="chaining.png" >
   
+  
+  ## Example2
+  
+  oal state: Z <br>Termination condition; Stop if z is derived or no further rule can be applied.
+  
+  <br>facts: a e b c <br>
+  rules: f&b->z<br>c&d->f<br>a->d
+  
+  <img src="chaining2.png" >
+
   
 # backward chaining
   
