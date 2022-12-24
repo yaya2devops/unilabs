@@ -20,7 +20,6 @@ The technologies listed below were encountered near the end of my college career
 
 <br>
 
-> Next.
 
 - [Labview- NI Labview]()
 - [Arduino-NodeRed]()
