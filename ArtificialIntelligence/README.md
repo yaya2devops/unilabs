@@ -331,7 +331,7 @@ Now, in this step, we will solve the problem by resolution tree using substituti
 <img scr="GRAPH-IDK-YET.png" > 
 # Forward chaining and backward chaining
   
-  
+{} Hence Proved (empty)
 # AI Techniques; Search, Knowledge &  Abstraction
   
 # Score Playing - Scope of AI
