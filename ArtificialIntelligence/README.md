@@ -330,10 +330,13 @@ On this stunt, we will apply negation to the conclusion stunt, which will writte
 ## Step4: Draw resolution Graph
 Now, in this step, we will solve the problem by resolution tree using substitution, for the above problem it wll be given as
  
-<img scr="GRAPH-IDK-YET.png" > 
+<img src="GRAPH-IDK-YET.png" > 
+
+{} Hence Proved (empty)
+
+
 # Forward chaining and backward chaining
   
-{} Hence Proved (empty)
 # AI Techniques; Search, Knowledge &  Abstraction
   
 # Score Playing - Scope of AI
