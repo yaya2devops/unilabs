@@ -80,7 +80,7 @@ First order logic is another way of knowlege representation in A.I.
 |          Functions  |  Sqrt, etc | 
 |          Connectives  |  No, apply, and, or, <=> (AI syntax pls) | 
 |          Equality  |  = | 
-|         Quantifiers   |  Qlqsoit, il existe | 
+|         Quantifiers   |  ∀, ∃ | 
 
  ### Atomic Sentences
  - Atomic sentences are the most basic sentences of FOL. These sentences are formed ffrom a predicate symbol followed by praenthesis with a sequence of terms.
@@ -120,7 +120,7 @@ Real meaning: Predicate1(Term1, Term2, TermN..) "Connectivity"  Predicate2(Term1
   #### a- Universal Quantifier ( for all, everyone, everything)  -- range in math "∀" 
   It is a symbol of logical representation which specifies that the statement within its range is true for everything or every instance of particular thing
   
-  if x is a varibale, the qlqsoit X is read as: <br>
+  if x is a varibale, the ∀soit X is read as: <br>
  for all x
 <br> for each x<br>
 for every x
@@ -175,29 +175,48 @@ FOL logic does not only use predicate and terms for making atomic sentence but a
 <br> eq, no(x=y) equivalent to x<>y
 
 
+## FOL Inference rules for quantifiers
+=> Pl, we also have inference rules for FOL.
 
-## Unification
-  
-## Resolution
-  
-## Forward chaining and backward chaining
-  
-  
-## AI Techniques; Search, Knowledge &  Abstraction
-  
-## Score Playing - Scope of AI
-  
-## NLP - Scope of AI
-  
-## Expert Systems - Scope of AI
-  
-## Robotics - Scope of AI
+### Universal generalization: ∀
+It is a valid inference rule which states that if premise p(c) is true for any arbitrary element c in the universe of discourse, then we can have a concusions ∀x p(x)
+<b>r It can be respresented as, P(c)/∀x P(x) <br> Example: Let's present , P(C): " a byte contains 8 bits" <br> so for ∀xp(x), " all bytes contain 8 bits" it will also be true
+
+### Universal instantiation (eliminiation): ∀
+  It can be appiled multipl times to add new sentences. The rule says that we can infer any sentence that is premisses of p(c) by substituting a ground term c  ( constant within domain x) for ∀x p(x) for any object in the universe of course we have <br> **∀x p(x)/p(c)** <br>Example: Every person like ice-cream => ∀xp(x) we can infer that " John like ice cream" => P(c).
   
   
-## Learning from Observation
+### existential instantiation:(eliminiation) ∃
+  which is a valid reference rule in FOL. It can only applied only once to replace the existential sentence. <br>this rule states that one can infer p(c) per the foruma given in the form il existe x p(x) for a new constant syn'c'a <br>  **∃xP(x)/P(c)**
   
-## Inductive Learning
+### existential Introductions: ∃
+  It is also called as existential generalization, this rule states that if there is some element c in the unverise of discourse which has a proerty P, then we can infer that there exists something in the unversie which has property P.
+<br>  **P(c)/il ∃xP(x)** <br> Pinky(c) got good markes in math, therefore someone, got good marks in math, ∃ means(someone)
+
+
+
+# Unification
   
-## Decision Tree Learning Algo
+# Resolution
   
-## AI - Application
+# Forward chaining and backward chaining
+  
+  
+# AI Techniques; Search, Knowledge &  Abstraction
+  
+# Score Playing - Scope of AI
+  
+# NLP - Scope of AI
+  
+# Expert Systems - Scope of AI
+  
+# Robotics - Scope of AI
+  
+  
+# Learning from Observation
+  
+# Inductive Learning
+  
+# Decision Tree Learning Algo
+  
+# AI - Application
