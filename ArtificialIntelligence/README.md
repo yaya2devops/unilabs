@@ -360,7 +360,29 @@ Now, in this step, we will solve the problem by resolution tree using substituti
   
   
 
-# Forward chaining and backward chaining
+# Forward chaining/Reasoning
+It is a form of reasoning which starts with atomic sentences in the knowledge base and applies inference rules in the gorward direction to extract more ddata until  a goal is reached.  
+
+## Properties
+  - it moves from bottom to top
+  - it is a process of making a conclusion based on knownn facts or data, by starting from the initial state and reach the goals
+- forward chaining approach is alson called a s data driven as we reach to the goal using availablen data
+- forward chaining approach is commonl used in the expert system.
+  
+## Examples
+Rule1: if A and C hen F: a&c->f <br>
+Rule2: if a and e then a: A&E->A<br>
+Rule3: if b then E: B->E <br>
+Rule4: if a then d: C->D <br>
+  
+ 
+ **Database: AB <br>
+  Problem: Proove if a and B true, then d is true: meaning i have to prove A&B->D 
+  
+  <img src="chaining.png" >
+  
+  
+# backward chaining
   
 # AI Techniques; Search, Knowledge &  Abstraction
   
