@@ -241,7 +241,94 @@ return SUBST
 
 
 # Resolution
-  
+Resolution is a theorem proving technique that proof by contradictions.<br> It is used, if there are various stunts are fiven & need to prove a conclusion of those stunt. <br>Unification is key concept in proofs by resolutions<bbr>resolutions is a single reference rule which can efficiently operate on conjunctive normal form or clausal form.
+> clause: dijunction of literals is called clause. 
+
+> conjunctive NF: a sentence represented as a conjunction of clauses said to CNF.
+
+## Steps for resolution
+1- conversion of facts into FOL<br>
+2- conver FOL stunt into CNF<br>
+3- negate the stunt which eed to prove by contradiction<br>
+4- draw  resoution graph (unification)<br>
+
+Examples:
+a- John likes all kind of food <br>
+b- apple and vegetable are food <br>
+c- anything anoyone eat and not killed is food <br>
+d- anil eats peanuts and still alive.<br>
+e- henry eats everything that hanry eats<br>
+h- prove by resolution that  John likes peanuts<br>
+
+
+## Step 1 conversion of facts into FOL
+ a-  ∀x: food(x) -> likes (John, X) <br>
+ b- food (apple) and food (vegetablees)<br>
+ c- ∀x∀y: eats(x,y) and not killed(x) -> food(y)<br>
+ d- eats(anit, peantu)and alive(anil)<br>
+ e- ∀x: eats (anil,x) -> eats(hanry, x)<br>
+ f- ∀x: not killed(x) -> alive<br>
+ g- ∀x:alive(x)->killed(x) <br>BOTH ARE ADDED PREDICATES<br>
+ h- likes(John, Peanuts)
+ 
+## Step2: conversion of FOL int CNF
+ This makes it easier for resulution proofs
+ 
+ ### 1- Eliminiate all implications -> & rewrite
+ 
+ -  The foruma: a->b= NotA or B
+ 
+ a-  ∀x: Not food(x) OR likes (John, X) <br>
+ b- food (apple) and food (vegetablees)<br>
+ c- ∀x∀y: not[ eats(x,y) and not killed(x)] OR food(y)<br>
+ d- eats(anit, peantu)and alive(anil)<br>
+ e- ∀x: noteats (anil,x) or eats(hanry, x)<br>
+ f- ∀x: not [not killed(x)] or alive<br> 
+ g- ∀x:not[alive(x)] or killed(x) 
+ h- likes(John, Peanuts)
+ 
+ ### 2- Move negation (not) inwords (inside) "oncher el no"
+ a-  ∀x: Not food(x) OR likes (John, X) <br>
+ b- food (apple) and food (vegetablees)<br>
+ c- ∀x∀y: not  eats(x,y) or  killed(x)] and food(y)<br>  //change
+ d- eats(anit, peantu) and alive(anil)<br>
+ e- ∀x: noteats (anil,x) or eats(hanry, x)<br>
+ f- ∀x: not [not killed(x)] or alive(x)<br> 
+ g- ∀x:not[alive(x)] or not killed(x) //changes dunno
+ h- likes(John, Peanuts)
+ 
+ ### 3- Rename variables or standardize variables
+ 
+ a-  ∀x: Not food(x) OR likes (John, X) <br>
+ b- food (apple) and food (vegetablees)<br>
+ c- ∀y∀z: not  eats(y,z) or  killed(y)] and  food(z)<br>  //change
+ d- eats(anit, peantu) and alive(anil)<br>
+ e- ∀x: noteats (anil,x) or eats(hanry, x)<br>
+ f- ∀g: not  killed(g)] or alive(g)<br> 
+ g- ∀k:not[alive(k)] or not killed(k) //changes dunno
+ h- likes(John, Peanuts)
+ 
+ ### 4- Eliminate existential instantioation quantifier by eliminiation
+But in our case there is no existential stuff, so all remain same
+
+### 5- drop universal quantifiers: (qlqsoit x,y or ilexiste etc)
+ a-   Not food(x) OR likes (John, X) <br>
+ b- food (apple) and food (vegetablees)<br>
+ c-  not  eats(y,z) or  killed(y)] and  food(z)<br>  //change
+ d- eats(anit, peantu) and alive(anil)<br>
+ e-  noteats (anil,x) or eats(hanry, x)<br>
+ f-  not  killed(g)] or alive(g)<br> 
+ g- not[alive(k)] or not killed(k) //changes dunno
+ h- likes(John, Peanuts)
+ 
+
+## Step3: Negate the statement to be proved
+On this stunt, we will apply negation to the conclusion stunt, which will written as (not likes(job, peanuts)
+
+## Step4: Draw resolution Graph
+Now, in this step, we will solve the problem by resolution tree using substitution, for the above problem it wll be given as
+ 
+<img scr="GRAPH-IDK-YET.png" > 
 # Forward chaining and backward chaining
   
   
