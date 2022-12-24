@@ -196,7 +196,50 @@ It is a valid inference rule which states that if premise p(c) is true for any a
 
 
 # Unification
-  
+It is all about making the expression look identical. So, far the given expressions to make them look idenntical we need to do substitution. <br> 
+Eg: P(x, F(y)), p(a, F(g(z)), i can say these are identical why ? <br>Because x=a, y= g(z)<br> Unification gives, [a/x, g((z)/y]
+<br>Because xin place of a, y in place of g(z) <br>
+
+- with both the substituitons, the first expression will be identical to the second expression & the substitution set will be [a/x, g((z)/y]
+
+
+### Unifcation Conditions
+- Predicate symbol mst be same, atoms or expression with different predicate symbol can never be unified. ( p/p)
+- number of arguments in both expressions must be identical (number of argument 2/2)
+- unification will fail if there are two smiliar variables present in same expression
+
+### Unification Algo
+=> algorithm, unify (l1, l2)
+
+#### STEP1
+- If l1 or l2 is a variable or constant, then: <br> If l1 & l2 are identical return "NIL"
+- Else if L1 is a variable, then if L1 occurs in L2 then return FAIL,<br> Else return {(L1/L2)}
+- Else if L2 is a variable, then if l2 occrs in l1 then return Fail, <br> Else return {(L1/L2)}
+- Else return FAIL
+
+#### STEP2
+If the initial predicate sumbol in l1&l2 are not identical, then return FAIL.
+
+#### STEP3
+If l1&l2 have different number of arguments, then return fail.
+
+#### STEP4
+Set SUBST to nil
+
+#### STEP5 
+Loop: <br>
+for in<-1 to no f argments in l1: <br>a) call the unify with the ith argument of l1 and the ith argument of l2 putting result in s <br>b) if s=FAIL then return FAIL<br>if s is not equal to NIL Then<br> (i) apply s to the remaind of both l1&l2<<br>(ii) subs= append (s1,subst)
+
+#### STEP6
+return SUBST
+
+###  Algo Implementation
+#### Step1; Initialize the substituion set be empty
+#### Step2; recursively unify atomic sentences <br>a) check for identical expression match<br>b)if one expression a variable and other is a term which does not contain variable vi then:<br> ->substitue ti/vi<br>-> add ti/vi to the substitution settlist<br>->if both the expressions are functions, then functions must be similar & number of arguments must be same in both expressions. <br> eg: p(x,f(y)) and   p(a,f(z) ===> f must stay f!!!
+
+<img src="example-unification.png">
+
+
 # Resolution
   
 # Forward chaining and backward chaining
