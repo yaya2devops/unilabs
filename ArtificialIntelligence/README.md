@@ -334,6 +334,31 @@ Now, in this step, we will solve the problem by resolution tree using substituti
 
 {} Hence Proved (empty)
 
+### Examples of Resolution<br>
+  
+#### Structue:Stp1:step2
+  
+- If it is sunny & warm day you will enjoy: sunny and warn -> enjoy: not sunny or warn or enjoy:<br>
+- if it is rainy you will get wet: raining ->wet: not raining or wet:<br>
+-  it is a warn day: warn<br>
+- it is rainning: rain<br>
+- it is sunny: sunny <br>
+  
+  
+- goal; u will enjoy, **STEP 3**. Negate the statement that u need to prove so? => Not enjoy
+  
+  **step4**: draw the graph
+  
+  <br>Not enjoy ( take frist statement with it cause it's contraduction to it) <br>
+  <br>
+  Not enjoy-----------Not sunny or not worm or enjoy ( apply unification method))  equal <br>not sunny or not warm ( now fine where there is not warm and not sunny but dont take the one with exact ex the second NO!)
+  
+  <br> take the third step with it( it is warm day) <br> notsunny or not warm ---- warm equals not sunny<br>
+  
+  Check where there is contradiction(the negative of it) so find where there sunny ( last option)
+  not sunny -- sunny = {} contrdiction proved.
+  
+  
 
 # Forward chaining and backward chaining
   
