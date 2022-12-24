@@ -411,7 +411,7 @@ A backward chaining algorithm is a form of reasoning which starts with the goal 
   
   <img src="compare2.png" >
   
-    <img src="compare3.png" >
+<img src="compare3.png" >
 
 
   
