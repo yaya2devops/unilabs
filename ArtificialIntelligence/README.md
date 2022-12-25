@@ -599,15 +599,4 @@ The expert systems are the computer applications developed to solve complex prob
 - stock market trading
 - airline scheduling and cargo scheduling
 
----
-  
-## Robotics | Scope of AI
-  
-  
-## Learning from Observation 
-  
-## Inductive Learning
-  
-## Decision Tree Learning Algo
-  
-# AI - Application
+Good
