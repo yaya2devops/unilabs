@@ -488,6 +488,51 @@ Game AI needs various computer science disciplines:
   
   
 ## Natural Language Processing NLP | Scope of AI
+ We use the englsh lang to communcate between an intelligent system and NLP. Processing of NL plays an important role in various systems. <br>
+  
+  Example: 
+  - Robot, it is used to perform as per your instructions
+  - the input and output of an NLP system can be. speech or writen text.
+  
+  
+  ### Components of NLP
+  #### 1- Natural language understanding
+  - basically, the mapping to given input output in NL into usefull representation.
+  - analying different aaspects of the language
+  
+  #### 2- Natural language generation NGL 
+  We have to produce meaningfu phraes and sentences that is in the form of Natural language from internal representation  
+  - text planning
+  - sentence planning
+  - text realization
+  
+  ### Difficulties of NL unit
+#### 1- Lexical ambiguity  
+  It is a predefined at a very primitive level such as world-level
+#### 2- Sytax level
+It this, we can define a sentence in a parsed way or in a different way
+  
+#### 3- Refrential ambiguity  
+  It says that we have to refer ti something using pronouns
+  
+### Step in NLP 
+#### 1- Lexical analysis
+we have to analyze the structure of the words. the collection of words and phrases in lang is lexicon of a lang.
+  
+#### 2-  Syntactic analysis (Parsing)
+  we use parsing to the analysis of the word. Although, have to arrange words in an particular manner to show the relationship between the words.
+  
+#### 3- Semantic analysis 
+  it describes a dicitonnary meaning which is leaning in the last domain. mapping syntatic structrure and objects
+  
+#### 4- Discourse Integration
+  It this step, the meaning of any sentence depends upon the meaning of the previous sentence. In addion, it brings the meaning to immedaiattlt succeeding sentence
+  
+#### 5- Programtic Analysis
+ In this step data is interpreted on what is actually meant. although we have to derive aspects of the language which reqiuires real world knowledge.
+  
+---
+ 
   
 ## Expert Systems | Scope of AI
   
