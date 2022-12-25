@@ -565,7 +565,7 @@ The expert systems are the computer applications developed to solve complex prob
   - inference engine
   - user interface
   
-  <img src"componentsES.png" >
+<img src="componentsES.png" >
   
 #### 1- Knowledge base
 - It contains domain specific and high quality knowledge
