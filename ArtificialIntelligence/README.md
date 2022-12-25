@@ -535,6 +535,71 @@ we have to analyze the structure of the words. the collection of words and phras
  
   
 ## Expert Systems | Scope of AI
+The expert systems are the computer applications developed to solve complex problems in a particular domain, at the level of extraordinary human intelligence and expertise.
+### Characterestics of Expert Systems  
+ - high performance
+ - understanable
+ - reliable
+ - highly responsive 
+  
+### Characterestics of Expert Systems  
+  
+#### Capable of
+- Advising
+- Introducing and assting human in decison making
+- Demonstrating
+- Deriving a solution
+- Epxplaining
+- Interpreting input/output
+- Predicting results 
+- suggesting alternative options to a problem
+  
+#### INCapable of
+- substituting human decision makers
+- processing human capabilities  
+- produce accurate o/p for inadequate knowledge base  
+-  Refining their own knowledge
+  
+### Components of Expert Systems
+  - knowledge base
+  - inference engine
+  - user interface
+  
+  <img src"componentsES.png" >
+  
+#### 1- Knowledge base
+- It contains domain specific and high quality knowledge
+- Knowledge is required to exhibit intelligence
+- the success of any expert system depends upon the collection of highly accurate and precose knowledge  
+
+#### 2- Inference Engine
+ It is the brain of the epert system. It contains rules to solve a specific problem. It selects facts and rules  to apply when trying to answer the user query. It provies reasoning about the information in the knowledge base. Inference enginer helps in deducing th problem to find the solution. This comonent is also helpful for formatiting conclusions.
+  
+#### 3- User Interface
+- The user interface is the most crucial part of the expert system. This component takes the user uery in a readable form and passes it to the inference engine.
+  
+-  After that, it displays the result to the user. Onn other world its an interface that helps the user communicate with the expert system.
+  
+### The process of building an Expert Systems
+- Determining the characterestiics of the problem
+- KNowledge engineer and domain expert work in coherence to define the problem
+- the knowledge engineer translates the knowledge into a computer understandabe language. He designs an inference engine in a reasoning strcucture, which can use knowledge when needed
+- the knowledge expert also determines how to integrate the use of uncertain knowledge in the reasoning process and what type of explanation would be useful.
+ 
+### Expert Systems Applications
+- Information management
+- Hospitals and mediical facilities  
+- help desks management  
+- **employee performance evaluation**  
+- loan analysis  
+- virus detection  
+- warehouse optimization  
+- planning and scheduling
+- process monitoring and control
+- stock market trading
+- airline scheduling and cargo scheduling
+
+---
   
 ## Robotics | Scope of AI
   
