@@ -1,6 +1,6 @@
 # AI Fundamentals - My Notes
 
-> [Machine Learning](soon)
+> [Machine Learning](soon) is a small scope of the HUGE Artificial Intelligence.
 
 - **Definition;** “the science of making machines do things that would require intelligence if done by men.” Marvin Minsky
 
@@ -415,21 +415,89 @@ A backward chaining algorithm is a form of reasoning which starts with the goal 
 
 
   
-# AI Techniques; Search, Knowledge &  Abstraction
+# AI Techniques
+
+## Search
+This technique provides a way of solving problems far no more direct approach is available as well as a framwework into which any direct techniques that are can be embedded.
   
-# Score Playing - Scope of AI
+## Use of Knowledge 
+This technique provides a way solving complex problem by explointing the structures of the object that are involved.
   
-# NLP - Scope of AI
+## Abstraction
+This technique provides a ay of separating important features and variations from the many **unimportant ones** , it hides the details of something.  
+<br>Eg; if we wan to compute the square root of a no: then simply we call the fun tion sort in c. we do not need to know the implementation details of tis function. <br> eg, #include<stdio.h>; math.h etc.
+
+## Conclusion
+  AI technique is a method that exploits knowledge that should be represented in:
+-  the knowledge captures generalizations
+-  it can be understood by people who must provide it
+-  it can easily be modified to correct erros and to reflect changes in the world and our world view.
+-  IT CAN be used in great many situations even if it is not totally accurate.
   
-# Expert Systems - Scope of AI
+---
   
-# Robotics - Scope of AI
+# Scopes of Artificial Intelligence
+  
+## Game Playing | Scope of AI
+Game playing is a search problem designed by, 
+  - initial state
+  - succesor function
+  - goal test
+  - path cast/utility/pay off function
+AI has continued to improve with aims set on a player being unable to tell the difference between computer and human player.  
+  
+<br>A game must feel Natural
+  - Obey laws of the game
+  - characters aware of the environement
+  - path findings (a algo)
+  - decision making
+  - planning
+
+The Game AI is about the illusion of human behavior
+  - smart to a certain existent
+  - non repeating-behavior
+  - emotional influences ( irrationality, personality)
+  - body language and communicate emotions
+  - being integrated in the environment
   
   
-# Learning from Observation
+Game AI needs various computer science disciplines:
+  - Knowledge based systems
+  - Machine learning
+  - Multi Agent systems
+  - Computer Graphics and animation
+  - data structures
   
-# Inductive Learning
+### Computer Games Type 
+#### 1- Strategy Games
+  - Real time strategy (RTS)
+  - Turn based strategy (TBS)
+  - Helicopter view
+#### 2- Role playing Games
+  - Single player
+  - Multi player
+#### 3- Action Games
+  - First person shotter
+  - first person sneaks
+#### 4- Sport Games
+#### 5- Simulations Games
+#### 6- Adventure Games
+#### 7- Puzzle Games
+#### 8- ETC your innovation ;)
+
   
-# Decision Tree Learning Algo
+  
+## Natural Language Processing NLP | Scope of AI
+  
+## Expert Systems | Scope of AI
+  
+## Robotics | Scope of AI
+  
+  
+## Learning from Observation 
+  
+## Inductive Learning
+  
+## Decision Tree Learning Algo
   
 # AI - Application
