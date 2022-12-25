@@ -5,12 +5,12 @@ Whether you are studying for an upcoming exam, working on a project, or simply l
 
 <img src="uni.png" > <br>
 
-- I am excited to share it with you and I hope that it will help you to achieve your goals and succeed in your studies. 
 
 
 
 ## Technologies Met
-The technologies listed below were encountered near the end of my college career. Most of them I already knew, but it was a good knowledge stretch.
+The technologies listed below were encountered near the end of my college career. Most of them I already knew, but it was a good knowledge stretch. I am excited to share it with you and I hope that it will help you to achieve your goals and succeed in your studies. 
+
 
 - [Artifical Intelligence](ArtificialIntelligence/README.md)
 - [Big Data](BigData/README.md)
