@@ -13,13 +13,13 @@ The technologies listed below were encountered near the end of my college career
 
 
 - [Artifical Intelligence](ArtificialIntelligence/README.md)
-- [Big Data](BigData/README.md)
-- [Docker](DockerF/README.md)
-- [Real Time](Real-time/README.md)
-- [Networking](Network/README.md)
+- [Linux & Shell Scripting](Linux/README.md)
+- [Docker & Containerization](DockerF/README.md)
+- [Networking with Cisco Packet Tracer](Network/README.md)
+- [Big Data with Cloudera VM](BigData/README.md)
+- [Real-Time with C Programming Language](Real-time/README.md)
 
 <br>
 
-- [Linux](Linux/README.md)
 - [Labview- NI Labview]()
 - [Arduino-NodeRed]()
