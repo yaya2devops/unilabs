@@ -12,12 +12,16 @@ Whether you are studying for an upcoming exam, working on a project, or simply l
 The technologies listed below were encountered near the end of my college career. Most of them I already knew, but it was a good knowledge stretch. I am excited to share it with you and I hope that it will help you to achieve your goals and succeed in your studies. 
 
 
-- [Artifical Intelligence](ArtificialIntelligence/README.md)
-- [Linux & Shell Scripting](Linux/README.md)
-- [Docker & Containerization](DockerF/README.md)
-- [Networking with Cisco Packet Tracer](Network/README.md)
-- [Big Data with Cloudera VM](BigData/README.md)
-- [Real-Time with C Programming Language](Real-time/README.md)
+
+|  Technology | Format  | 
+|:---|---|
+|[Artifical Intelligence](ArtificialIntelligence/README.md)   |  My Notes |  
+|  [Linux & Shell Scripting](Linux/README.md) | PDF  |
+|  [Docker & Containerization](DockerF/README.md) |  LAB SCREENSHOTS |
+|  [Networking with Cisco Packet Tracer](Network/README.md) | Packet Tracer Files  |
+| [Big Data with Cloudera VM](BigData/README.md)  |  My Notes  |
+| [Real-Time with C Programming Language](Real-time/README.md)  |  Code in C and Instructions |
+
 
 <br>
 
