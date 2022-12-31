@@ -16,7 +16,7 @@ The technologies listed below were encountered near the end of my college career
 |  Technology | Format  | 
 |:---|---|
 |[Artifical Intelligence](ArtificialIntelligence/README.md)   |  My Notes |  
-|  [Linux & Shell Scripting](Linux/README.md) | PDF  |
+|  [Linux & Shell Scripting](TryShellYourself.pdf) | PDF  |
 |  [Docker & Containerization](DockerF/README.md) |  LAB SCREENSHOTS |
 |  [Networking with Cisco Packet Tracer](Network/README.md) | Packet Tracer Files  |
 | [Big Data with Cloudera VM](BigData/README.md)  |  My Notes  |
