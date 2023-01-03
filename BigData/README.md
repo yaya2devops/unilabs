@@ -4,6 +4,10 @@ Below is my essay summarizing what we studied leading up to the big data practic
 > You can check the [PDF Version](bigdata.pdf) if your prefer.
 
 ## Required Install
+
+You don't know how to get started with Virtual Machines? [Check this one](https://blog.yahya-abulhaj.dev/containers-docker-or-what-exactly-is-that#heading-virtual-machines)
+
+After checking the provided link, you will just download cloudera image instead of PopOS!
 - https://www.virtualbox.org/
 - http://content.udacity-data.com/courses/ud617/Cloudera-Udacity-Training-VM-4.1.1.c.zip
 - https://www.7-zip.org/download.html
