@@ -17,7 +17,7 @@ The technologies listed below were encountered near the end of my college career
 |:---|---|
 |[Artifical Intelligence](ArtificialIntelligence/README.md)   |  My Notes |  
 |  [Linux & Shell Scripting](https://linux.yahya-abulhaj.dev/) | Guide  |
-| [Network Protocls: HTTP, MQTT & HTTPS](Network/protocols.md)| LAB|
+| [Network Protocls: HTTP, MQTT & HTTPS](Network/protocols.md)| Guide|
 |  [Docker & Containerization](DockerF/README.md) |  LAB  |
 |  [Networking with Cisco Packet Tracer](Network/README.md) | Packet Tracer Files  |
 | [Big Data with Cloudera VM](BigData/README.md)  |  My Notes  |
