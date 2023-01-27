@@ -15,7 +15,7 @@ The technologies listed below were encountered near the end of my college career
 
 |  Technology | Format  | 
 |:---|---|
-|[Artifical Intelligence](ArtificialIntelligence/README.md)   |  My Notes |  
+|[Artifical Intelligence](ArtificialIntelligence/README.md)   |  Notes |  
 |  [Linux & Shell Scripting](https://linux.yahya-abulhaj.dev/) | Guide  |
 | [Network Protocls: HTTP, MQTT & HTTPS](Network/protocols.md)| Guide|
 |  [Docker & Containerization](DockerF/README.md) |  LAB  |
