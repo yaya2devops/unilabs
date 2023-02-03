@@ -1,4 +1,4 @@
-  # University Labs
+# University Labs
 This project will bring together all of the practical materials I completed during my last semester at college. 
 By combining these resources, I aim to provide you with the most comprehensive and useful collection of materials possible.
 Whether you are studying for an upcoming exam, working on a project, or simply looking to improve your knowledge, I believe that this project will serve as an invaluable resource. <br>
