@@ -23,7 +23,4 @@ The technologies listed below were encountered near the end of my college career
 | [Real-Time with C Programming Language](Real-time/README.md)  |  Code in C and Instructions |
 
 
-<br>
-
-- [Labview- NI Labview]()
-- [Arduino-NodeRed]()
+I am on Linkedin, [Let's connect.](https://www.linkedin.com/in/yahya-abulhaj/) 
