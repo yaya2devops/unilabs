@@ -1,22 +1,20 @@
 [![pages-build-deployment](https://github.com/yaya2devops/UniversityLabs/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yaya2devops/UniversityLabs/actions/workflows/pages/pages-build-deployment)
 
-This project will bring together all of the practical materials I completed during my last semester at college. 
+This project will bring together some of the practical materials I completed during my last semester pursuing Bachelors in Computer Engineering @[ISTIC](http://www.istic.rnu.tn/fr/). 
 
-My aim is to provide you with the most comprehensive and useful collection of materials possible.
+The work on my laptop will eventually fade. It will always live here, enjoy it!
+
 
 
 <img src="uni.png" > <br>
-
-Whether you are studying for an upcoming exam, working on a project, or simply looking to improve your knowledge.
-
-I believe that this project will serve as an invaluable resource. <br>
 
 
 
 ## Technologies Met
 The technologies listed below were encountered near the end of my college career. Most of them I already knew, but it was a good knowledge stretch. 
 
-I am excited to share it with you and I hope that it will help you to achieve your goals and succeed in your studies!
+I am excited to share it with you.
+We hope this will help you to achieve your goals and succeed in your studies.
 
 
 
@@ -31,4 +29,4 @@ I am excited to share it with you and I hope that it will help you to achieve yo
 | [Real-Time with C Programming Language](Real-time/README.md)  |  Code in C and Instructions |
 
 
-I am on Linkedin, [Let's connect.](https://www.linkedin.com/in/yahya-abulhaj/) 
+- I am on Linkedin - [Let's connect.](https://www.linkedin.com/in/yahya-abulhaj/) 
