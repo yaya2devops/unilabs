@@ -21,7 +21,7 @@ We hope this will help you to achieve your goals and succeed in your studies.
 |  Technology | Format  | 
 |:---|---|
 |[Artifical Intelligence](ArtificialIntelligence/README.md)   |  Notes |  
-|  [Linux & Shell Scripting](https://linux.yahya-abulhaj.dev/) | Guide  |
+|  [Linux & Shell Scripting](https://linux.computer-engineering.tech) | Guide  |
 | [Network Protocls: HTTP, MQTT & HTTPS](Network/protocols.md)| Guide|
 |  [Docker & Containerization](DockerF/README.md) |  LAB  |
 |  [Networking with Cisco Packet Tracer](Network/README.md) | Packet Tracer Files  |
